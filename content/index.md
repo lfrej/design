@@ -1,13 +1,12 @@
 ---
 Title: Home
 Description: This is our index page.
+icon: fa fa-home
 ---
 
-Home page
+Välkommen till min portfolio!
 ==========================
 
-The source for this page is in `content/index.md`.
+Mitt namn är Liv och jag bor i Norrköping. Jag studerar kurspaketet Webbprogrammering och databaser samt jobbat som danslärare. På min fritid gillar jag att umgås med vänner, käka god mat och ta promenader.
 
-This is a sample home page written in markdown with some frontmatter defined.
-
-This is an example text for my video.
+![me](%assets_url%/img/me.jpeg) {.img_small}

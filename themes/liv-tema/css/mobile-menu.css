@@ -14,8 +14,8 @@
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
-    color: #333;
+.nav a, .nav-toggle, .fa {
+    color: #f26b4b;
 }
 
 .nav-toggle {
