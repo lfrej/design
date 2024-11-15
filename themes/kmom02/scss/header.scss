@@ -1,0 +1,67 @@
+.header {
+  background-color: $background;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  a {
+    color: $red;
+    font-size: 1.1em;
+  }
+
+  a:hover,
+  .active {
+    text-decoration: underline;
+    color: $red;
+  }
+}
+
+/* Logo and title */
+
+.title,
+.logo {
+  padding: 3em 3em 3em 0;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+}
+
+.title * {
+  color: $dark;
+}
+
+.title p {
+  font-style: italic;
+  margin-top: -15px;
+}
