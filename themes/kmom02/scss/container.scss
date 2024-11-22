@@ -6,7 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: $background;
+  background-color: $white;
 }
 
 ol,
@@ -29,7 +29,7 @@ ul {
 
 .main {
   max-width: 64rem;
-  padding: 2rem;
+  padding: 0 2rem 2rem;
   margin: 0 auto;
 }
 

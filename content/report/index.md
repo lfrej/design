@@ -1,6 +1,7 @@
 ---
 Title: Report
 Description: My reports for this course.
+hidden: true
 ---
 
 Report

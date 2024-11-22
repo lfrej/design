@@ -1,10 +1,12 @@
 .header {
-  background-color: $background;
+  background-color: $white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 0 2rem;
+  border-bottom: solid 1px $black;
+  margin-bottom: 10px;
 }
 
 .site-header {
@@ -19,15 +21,31 @@ a {
 }
 
 .nav {
-  a {
-    color: $red;
+  li a {
     font-size: 1.1em;
+    color: $black;
   }
 
-  a:hover,
+  li {
+    margin-right: 5px;
+    position: relative;
+    border: solid 2px $black;
+  }
+
+  li:hover {
+    background-color: $yellow;
+  }
+
+  li:hover a {
+    color: $black;
+  }
+
+  .active a {
+    color: $white;
+  }
+
   .active {
-    text-decoration: underline;
-    color: $red;
+    background-color: $black;
   }
 }
 
@@ -35,11 +53,16 @@ a {
 
 .title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 3em 2em 3em 0;
+}
+
+.title h1:hover,
+.title p:hover {
+  color: $yellow;
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 125px;
 }
 
 @media (max-width: 767px) {
@@ -58,7 +81,7 @@ a {
 }
 
 .title * {
-  color: $dark;
+  color: $black;
 }
 
 .title p {

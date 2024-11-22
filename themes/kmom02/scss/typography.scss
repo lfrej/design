@@ -5,13 +5,24 @@ html {
 body {
   line-height: 1.4;
   font-family: $font;
-  color: $dark;
+  color: $black;
 
-  h1 {
-    color: $red;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.6em;
+    font-weight: 600;
   }
 
-  p {
-    font-weight: 300;
+  p,
+  td,
+  th,
+  li,
+  dd {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
 }
