@@ -8,8 +8,9 @@
 
 .wrapper {
   max-width: 960px;
+  width: 80vw;
   margin: 0 auto;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 75px repeat(4, 1fr);
 }
 
@@ -20,7 +21,7 @@
 
 .box a {
   text-decoration: none;
-  color: $black;
+  color: $font-color;
   display: block;
   height: 100%;
   width: 100%;
@@ -29,11 +30,11 @@
 }
 
 .box {
-  border: solid 2px $black;
+  border: solid 2px $font-color;
 }
 
 .box:hover {
-  background-color: $yellow;
+  background-color: $element-color;
 }
 
 .css,
@@ -74,9 +75,8 @@
   margin: 1em 0;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 560px) {
   .wrapper {
-    max-width: 100%;
     grid-gap: 5px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 75px repeat(7, 50px);

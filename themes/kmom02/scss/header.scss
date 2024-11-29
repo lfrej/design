@@ -1,11 +1,11 @@
 .header {
-  background-color: $white;
+  background-color: $background-color;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  border-bottom: solid 1px $black;
+  border-bottom: solid 2px $font-color;
   margin-bottom: 10px;
 }
 
@@ -23,29 +23,29 @@ a {
 .nav {
   li a {
     font-size: 1.1em;
-    color: $black;
+    color: $font-color;
   }
 
   li {
     margin-right: 5px;
     position: relative;
-    border: solid 2px $black;
+    border: solid 2px $font-color;
   }
 
   li:hover {
-    background-color: $yellow;
+    background-color: $element-color;
   }
 
   li:hover a {
-    color: $black;
+    color: $font-color;
   }
 
   .active a {
-    color: $white;
+    color: $background-color;
   }
 
   .active {
-    background-color: $black;
+    background-color: $font-color;
   }
 }
 
@@ -58,7 +58,7 @@ a {
 
 .title h1:hover,
 .title p:hover {
-  color: $yellow;
+  color: $h-color;
 }
 
 .logo img {
@@ -81,7 +81,7 @@ a {
 }
 
 .title * {
-  color: $black;
+  color: $font-color;
 }
 
 .title p {

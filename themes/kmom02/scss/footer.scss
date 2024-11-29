@@ -3,17 +3,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-top: solid 2px $black;
-  color: $black;
+  border-top: solid 2px $font-color;
+  color: $font-color;
+  background-color: $footer-color;
   padding: 2rem;
 
   .social a {
     text-decoration: none;
     font-size: 3rem;
-    color: $black;
+    color: $font-color;
   }
 
   .social a:hover {
-    color: $yellow;
+    color: $background-color;
   }
 }

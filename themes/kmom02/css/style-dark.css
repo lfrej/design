@@ -6429,7 +6429,7 @@ html {
 
 body {
   line-height: 1.4;
-  color: #121212;
+  color: #f2f2ea;
   font-family: "Poppins", sans-serif;
 }
 body h1,
@@ -6441,7 +6441,7 @@ body h6 {
   margin-bottom: 0.6em;
   font-weight: 600;
   font-family: "Anybody", serif;
-  color: #e37752;
+  color: #8c4932;
 }
 body p,
 body td,
@@ -6454,13 +6454,13 @@ body dd {
 }
 
 .header {
-  background-color: #f2f2ea;
+  background-color: #121212;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  border-bottom: solid 2px #121212;
+  border-bottom: solid 2px #f2f2ea;
   margin-bottom: 10px;
 }
 
@@ -6477,24 +6477,24 @@ a {
 
 .nav li a {
   font-size: 1.1em;
-  color: #121212;
+  color: #f2f2ea;
 }
 .nav li {
   margin-right: 5px;
   position: relative;
-  border: solid 2px #121212;
+  border: solid 2px #f2f2ea;
 }
 .nav li:hover {
-  background-color: #8c99e5;
+  background-color: #575f8e;
 }
 .nav li:hover a {
-  color: #121212;
-}
-.nav .active a {
   color: #f2f2ea;
 }
+.nav .active a {
+  color: #121212;
+}
 .nav .active {
-  background-color: #121212;
+  background-color: #f2f2ea;
 }
 
 /* Logo and title */
@@ -6505,7 +6505,7 @@ a {
 
 .title h1:hover,
 .title p:hover {
-  color: #e37752;
+  color: #8c4932;
 }
 
 .logo img {
@@ -6525,7 +6525,7 @@ a {
   }
 }
 .title * {
-  color: #121212;
+  color: #f2f2ea;
 }
 
 .title p {
@@ -6551,7 +6551,7 @@ a {
 
 .nav-toggle,
 .fa {
-  color: #121212;
+  color: #f2f2ea;
 }
 
 .nav-toggle {
@@ -6595,7 +6595,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #f2f2ea;
+  background-color: #121212;
 }
 
 ol,
@@ -6659,7 +6659,7 @@ ul {
 
 .box a {
   text-decoration: none;
-  color: #121212;
+  color: #f2f2ea;
   display: block;
   height: 100%;
   width: 100%;
@@ -6668,11 +6668,11 @@ ul {
 }
 
 .box {
-  border: solid 2px #121212;
+  border: solid 2px #f2f2ea;
 }
 
 .box:hover {
-  background-color: #8c99e5;
+  background-color: #575f8e;
 }
 
 .css,
@@ -6739,18 +6739,18 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-top: solid 2px #121212;
-  color: #121212;
-  background-color: #b4e68e;
+  border-top: solid 2px #f2f2ea;
+  color: #f2f2ea;
+  background-color: #597246;
   padding: 2rem;
 }
 .footer .social a {
   text-decoration: none;
   font-size: 3rem;
-  color: #121212;
+  color: #f2f2ea;
 }
 .footer .social a:hover {
-  color: #f2f2ea;
+  color: #121212;
 }
 
 blockquote {
@@ -6786,4 +6786,12 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+body img {
+  filter: brightness(0.9) contrast(1.1);
+}
+
+.logo img {
+  filter: invert(90%);
 }

@@ -6,7 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: $white;
+  background-color: $background-color;
 }
 
 ol,
@@ -44,5 +44,8 @@ ul {
   .img-small {
     width: 50%;
   }
+}
 
+.img-color {
+  width: 49%;
 }

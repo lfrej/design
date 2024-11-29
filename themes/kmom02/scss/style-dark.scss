@@ -8,7 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'typography';
 
@@ -23,3 +23,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'blockquotes';
 @import 'code';
+
+body img {
+  filter: brightness(0.9) contrast(1.1);
+}
+
+.logo img {
+  filter: invert(90%);
+}
