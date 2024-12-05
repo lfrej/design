@@ -1,0 +1,68 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+    <h1> Gallery </h1>
+
+        <div class="gallery-grid gallery-wrapper">
+
+            <a target="_blank" href="{{ base_url }}/image/gallery/img_1.jpg">
+                <picture class="img-1">
+                    <source media="(min-width: 560px)" srcset="image/gallery/img_1.jpg?w=320&q=90">
+                    <source media="(min-width: 376px)" srcset="image/gallery/img_1.jpg?w=560&q=70">
+                    <img src="image/gallery/img_1.jpg?w=375&q=70" alt="Julkort">
+                </picture>
+            </a>
+        
+            <a target="_blank" href="{{ base_url }}/image/gallery/img_2.jpg">
+                <picture class="img-2">
+                    <source media="(min-width: 560px)" srcset="image/gallery/img_2.jpg?w=320&q=90">
+                    <source media="(min-width: 376px)" srcset="image/gallery/img_2.jpg?w=560&q=70">
+                    <img src="image/gallery/img_2.jpg?w=375&q=70" alt="Ljus">
+                </picture>
+            </a>
+
+            <a target="_blank" href="{{ base_url }}/image/gallery/img_3.jpg">
+                <picture class="img-3">
+                    <source media="(min-width: 560px)" srcset="image/gallery/img_3.jpg?w=320&q=90">
+                    <source media="(min-width: 376px)" srcset="image/gallery/img_3.jpg?w=560&q=70">
+                    <img src="image/gallery/img_3.jpg?w=375&q=70" alt="Julklappar">
+                </picture>
+            </a>
+
+            <a target="_blank" href="{{ base_url }}/image/gallery/img_4.jpg">
+                <picture class="img-4">
+                    <source media="(min-width: 560px)" srcset="image/gallery/img_4.jpg?w=320&q=90">
+                    <source media="(min-width: 376px)" srcset="image/gallery/img_4.jpg?w=560&q=70">
+                    <img src="image/gallery/img_4.jpg?w=375&q=70" alt="Händer med ljusslinga">
+                </picture>
+            </a>
+
+            <a target="_blank" href="{{ base_url }}/image/gallery/img_5.jpg">
+                <picture class="img-5">
+                    <source media="(min-width: 560px)" srcset="image/gallery/img_5.jpg?w=320&q=90">
+                    <source media="(min-width: 376px)" srcset="image/gallery/img_5.jpg?w=560&q=70">
+                    <img src="image/gallery/img_5.jpg?w=375&q=70" alt="Noel skylt">
+                </picture>
+            </a>
+
+            <a target="_blank" href="{{ base_url }}/image/gallery/img_6.jpg">
+                <picture class="img-6">
+                    <source media="(min-width: 560px)" srcset="image/gallery/img_6.jpg?w=320&q=90">
+                    <source media="(min-width: 376px)" srcset="image/gallery/img_6.jpg?w=560&q=70">
+                    <img src="image/gallery/img_6.jpg?w=375&q=70" alt="Pepparkakor">
+                </picture>
+            </a>
+        </div>
+
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/aAkMkVFwAoo?si=C1yhwvXGCX5Oq5RS" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -9,10 +9,9 @@
             {{ content }}
 
             {% for sub in meta.Subjects %}
-
-                    <div class="box {{ sub.class }}">
-                        <a href="{{ base_url }}/analysis/{{ sub.class }}"> {{ sub.name }} </p> </a>
-                    </div>
+                <div class="box {{ sub.class }}">
+                    <a href="{{ base_url }}/analysis/{{ sub.page }}"> {{ sub.name }} </p> </a>
+                </div>
             {% endfor %}
         </div>
     </div>

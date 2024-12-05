@@ -39,7 +39,10 @@
 
 .css,
 .git,
-.php {
+.php,
+.colors,
+.load,
+.design-principles {
   grid-column: span 1;
 }
 
@@ -88,7 +91,10 @@
   .php,
   .python,
   .git,
-  .sqlite {
+  .sqlite,
+  .colors,
+  .load,
+  .design-principles {
     grid-column: 1/2;
   }
 

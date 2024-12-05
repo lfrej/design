@@ -1,9 +1,10 @@
 ---
 Title: Colors
 Description: This is colors page.
+Template: analys
 ---
 
-Analys av hemsidor
+Analys av hemsidor: färgval och typsnitt
 =======================
 
 Uppgiften handlar om att analysera tre olika hemsidor och undersöka dess färgval samt typsnitt för att ta reda på vilken känsla de förmedlar.
@@ -28,8 +29,13 @@ Resultat
 
 <h3> Storytel </h3>
 
-![me](%assets_url%/img/storytel_1.png) {.img-color} 
-![me](%assets_url%/img/storytel_2.png) {.img-color}
+<a target="_blank" href="../assets/img/storytel_1.png">
+    ![me](%assets_url%/img/storytel_1.png) {.img-color} 
+</a>
+
+<a target="_blank" href="../assets/img/storytel_2.png">
+    ![me](%assets_url%/img/storytel_2.png) {.img-color}
+</a>
 
 <table style="border-spacing: 4px; border-collapse: separate; background-color: white; padding: 5px;">
     <tr> 
@@ -48,8 +54,13 @@ Typsnittet som används på hemsidan är en sans-serif, vilket också skapar en 
 
 <h3> Nextory </h3>
 
-![me](%assets_url%/img/nextory_1.png) {.img-color}
-![me](%assets_url%/img/nextory_2.png) {.img-color}
+<a target="_blank" href="../assets/img/nextory_1.png">
+    ![me](%assets_url%/img/nextory_1.png) {.img-color} 
+</a>
+
+<a target="_blank" href="../assets/img/nextory_1.png">
+    ![me](%assets_url%/img/nextory_2.png) {.img-color}  
+</a>
 
 <table style="border-spacing: 4px; border-collapse: separate; background-color: white; padding: 5px;">
     <tr>
@@ -69,8 +80,13 @@ Webbplatsen använder ett typsnitt vilket är sen sans-serif. Typsnittet har mju
 
 <h3> Bookbeat </h3>
 
-![me](%assets_url%/img/bookbeat_1.png) {.img-color}
-![me](%assets_url%/img/bookbeat_2.png) {.img-color}
+<a target="_blank" href="../assets/img/bookbeat_1.png">
+    ![me](%assets_url%/img/bookbeat_1.png) {.img-color}  
+</a>
+
+<a target="_blank" href="../assets/img/bookbeat_2.png">
+    ![me](%assets_url%/img/bookbeat_2.png) {.img-color} 
+</a>
 
 <table style="border-spacing: 4px; border-collapse: separate; background-color: white; padding: 5px;">
     <tr>
@@ -107,4 +123,4 @@ Beaird, Jason; Walker, Alex. 2020. The Principles of Beautiful Web Design. 4. up
 Övrigt
 -----------------------
 
-Liv Frej
+Skriven av Liv Frej
