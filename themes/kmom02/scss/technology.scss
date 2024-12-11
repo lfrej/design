@@ -11,12 +11,12 @@
   width: 80vw;
   margin: 0 auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 75px repeat(4, 1fr);
+  grid-template-rows: 3fr repeat(4, 1fr);
 }
 
 .landing-page h1 {
   grid-column: span 3;
-  justify-self: center;
+  justify-self: left;
 }
 
 .box a {
@@ -31,10 +31,14 @@
 
 .box {
   border: solid 2px $font-color;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  background-color: $background-color;
 }
 
 .box:hover {
   background-color: $element-color;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  transform: translateY(-0.25em);
 }
 
 .css,
@@ -104,6 +108,10 @@
 
   .technology .article {
     width: 100%;
+  }
+
+  .main h1 {
+    font-size: 2em;
   }
 }
 

@@ -7,7 +7,6 @@ body {
   color: $font-color;
   font-family: $font-sans-serif;
 
-  h1,
   h2,
   h3,
   h4,
@@ -16,7 +15,6 @@ body {
     margin-bottom: 0.6em;
     font-weight: 600;
     font-family: $font-serif;
-    color: $h-color;
   }
 
   p,
@@ -28,4 +26,29 @@ body {
     word-wrap: break-word;
     font-family: $font-sans-serif;
   }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.main {
+  h1 {
+    font-size: 4em;
+    font-weight: 800;
+    color: $h-color;
+    margin-bottom: 0.2em;
+    font-family: $font-serif;
+    /*animation: 1s ease-out 0s 1 slideInFromLeft;*/
+  }
+}
+
+.article h1 {
+  font-size: 2.5em;
 }

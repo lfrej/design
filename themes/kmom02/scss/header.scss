@@ -29,11 +29,15 @@ a {
   li {
     margin-right: 5px;
     position: relative;
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
     border: solid 2px $font-color;
+    
   }
 
   li:hover {
     background-color: $element-color;
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+    transform: translateY(-0.25em);
   }
 
   li:hover a {

@@ -1,12 +1,16 @@
 html,
 body {
   height: 100%;
+  background-size: 40px 40px;
 }
 
 body {
   display: flex;
   flex-direction: column;
   background-color: $background-color;
+  background-image:
+    linear-gradient(to right, $grid-line-color 1px, transparent 1px),
+    linear-gradient(to bottom, $grid-line-color 1px, transparent 1px);
 }
 
 ol,
@@ -33,13 +37,27 @@ ul {
 /* Img */
 
 .img-small {
-  width: 25%;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+
+.img-small {
+  display: block;
+  float: right;
+  width: 30%;
   margin-top: 20px;
 }
 
 @media (max-width: 767px) {
   .img-small {
-    width: 50%;
+    display: inline;
+    width: 100%;
+  }
+
+  .img-small,
+  .img-color {
+    padding: 0;
+    border: 0;
+    box-shadow: none;
   }
 }
 
@@ -50,10 +68,10 @@ ul {
 /* KMOM05 */
 
 picture:hover,
-.img-color:hover {
+.img-color:hover,
+.img-small:hover {
   opacity: 0.9;
 }
-
 
 img,
 embed,
@@ -82,4 +100,15 @@ video {
 
 .result {
   width: 100%;
+}
+
+/* KMOM06 */
+
+.article a {
+  text-decoration: underline;
+  color: $font-color;
+}
+
+.article a:hover {
+  text-decoration: none;
 }

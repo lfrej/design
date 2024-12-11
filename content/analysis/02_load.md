@@ -34,7 +34,7 @@ Resultat
     ![me](%assets_url%/img/storytel_1.png) {.img-color} 
 </a>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjGtq8kPc8WAsDty4MQ-TACv6dT3y7-ljggcW2qpEddVQnHPbv4DxG9MYj7lrauUfiEyUTRMKIXoxL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="result"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjGtq8kPc8WAsDty4MQ-TACv6dT3y7-ljggcW2qpEddVQnHPbv4DxG9MYj7lrauUfiEyUTRMKIXoxL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="result"  title="resultStorytel"></iframe>
 
 Enligt resultatet i Google PageSpeed har webbplatsen för Storytel en lite sämre prestanda. För det mobila läget var prestandan mellan värdet 33 och 35 för de tre olika sidorna. Prestandan var däremot bättre för datorn. Värdet för prestandan var 64 för sidorna Startsida och Ljudböcker och 87 för sidan Kategorier. Google PageSpeed nämner förbättringar såsom att minska körningstiden med JavaScript, använda bilder med rätt storlek och modernare bildformat. Man kan se att hemsidan för Storytel innehåller många olika element, bilder, effekter och animeringar vilket kan vara en anledning till den sämre prestandan.  
 
@@ -46,7 +46,7 @@ Mätningen med DevTools resulterade i laddningstider under det valda gränsvärd
     ![me](%assets_url%/img/nextory_1.png) {.img-color} 
 </a>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdlCYhIXOoJLFsPYd7PQyeRDSzeR8KmGzx7TuqYiTper_8IZBRcu5zdysU0X7iPvcqOzXhCZTPARtx/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="result"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdlCYhIXOoJLFsPYd7PQyeRDSzeR8KmGzx7TuqYiTper_8IZBRcu5zdysU0X7iPvcqOzXhCZTPARtx/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="result" title="resultNextory"></iframe>
 
 Nextory hade generellt en hög prestanda för både mobilen och datorn i resultatet för Google PageSpeed. Värdet för prestandan för mobilen var mellan 96 och 98 medan för datorn var värdet 100. Verktyget nämnde några få förbättringar såsom att använda bilder med rätt storlek och reducera CSS som inte används. Anledningen till den höga prestandan kan vara webbplatsens mer simpla design med färre bilder och element. Detta stämmer även överens med mätvärdena i DevTools där laddningstiden var snabb, under 1 sekund för alla tre sidor. Man kan även se att storleken för resurserna som laddades in var ganska liten vilket även ligger i linje med de snabba laddningstiderna.
 
@@ -55,7 +55,7 @@ Nextory hade generellt en hög prestanda för både mobilen och datorn i resulta
 <a target="_blank" href="../assets/img/bookbeat_1.png">
     ![me](%assets_url%/img/bookbeat_1.png) {.img-color}  
 </a>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcCJeYsK2MyeYDfsFuUzOt-OSuXEwvPx-YHZ3123loZD1lyPShjkKPJYT67Slop98pVTRZtJYuopVL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="result"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcCJeYsK2MyeYDfsFuUzOt-OSuXEwvPx-YHZ3123loZD1lyPShjkKPJYT67Slop98pVTRZtJYuopVL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="result" title="resultBookbeat"></iframe>
 
 Resultatet för BookBeats prestanda i Google PageSpeed visade generellt låga värden. Prestandan för mobilen var för sidorna Startsida och Kategorier värdet 31 och för sidan Ljudböcker 43. Värdet var däremot högre för dator som visade värdet 60 för sidan Startsida, 56 för sidan Ljudböcker och 86 för sidan Kategorier. Google PageSpeed nämner förbättringar såsom att minska körningstiden för JavaScript, reducera CSS och JavaScript som inte används och att undvika ett onödigt stort DOM-träd. 
 

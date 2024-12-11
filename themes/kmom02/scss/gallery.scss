@@ -21,6 +21,20 @@ video {
   display: block; 
 }
 
+.gallery-grid a,
+.img-small,
+.img-color {
+  padding: 10px;
+  border: 2px solid $font-color;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+
+.gallery-grid a:hover,
+.img-color:hover,
+.img-small:hover {
+  transform: translateY(-0.25em);
+}
+
 .img-1,
 .img-2,
 .img-3,
@@ -38,6 +52,12 @@ video {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 300px);
     grid-gap: 15px;
+  }
+
+  .gallery-grid a {
+    padding: 0;
+    border: 0;
+    box-shadow: none;
   }
 
   .img-1,
